@@ -4,47 +4,65 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
+	div,h2,p,span {
+		margin: 0;
+		padding: 0;
+	}
 	div {
-		border:20px solid #fff;
-		width:0;
-		height:0;
-		margin:20px;
+		margin:0 auto;
+		width: 600px;
+		color: #fff;
+		border-radius: 4px;
+		margin-top: 30px;
+		position:relative;
 	}
-	.one {
-		border-top-color:blue;
-		border-bottom-color:green;
-		border-left-color:red;
-		border-right-color:yellow;
+	h2,p {
+		padding: 12px 18px;
 	}
-	.two {
-		border-top-color:blue;
+	.green {
+		background-color: #4CAF50;
 	}
-	.three {
-		border-left-color:red;
+	.blue {
+		background: #2196F3;
 	}
-	.four {
-		border-right-color:yellow;
+	.red {
+		background: #f44336;
 	}
-	.five {
-		border-bottom-color: green;
+	.orange {
+		background: #ff9800;
 	}
-	.six {
-		border-bottom-color:red;
-		border-left-color:red;
+	span {
+		position: absolute;
+		cursor:pointer;
+		color: #fff;
+		top:5px;
+		right:20px;
+		font-size:24px;
 	}
-	.seven {
-		border-right-color:green;
-		border-bottom-color:green;
-	}
+
+
 	</style>
 </head>
 <body>
-	<div class="one"></div>
-	<div class="two"></div>
-	<div class="three"></div>
-	<div class="four"></div>
-	<div class="five"></div>
-	<div class="six"></div>
-	<div class="seven"></div>
+	<div class="green">
+		<h2>恭喜你</h3>
+		<p>获得本周学霸，继续加油吧</p>
+		<span>x</span>
+	</div>
+	<div class="blue">
+		<h2>通知</h3>
+		<p>晚上上课，不要忘了</p>
+		<span>x</span>
+	</div>
+	<div class="red">
+		<h2>天啊</h3>
+		<p>竟然几天没做任务</p>
+		<span>x</span>
+	</div>
+	<div class="orange">
+		<h2>警告</h3>
+		<p>学如逆水行舟，不进则退</p>
+		<span>x</span>
+	</div>
 </body>
 </html>
